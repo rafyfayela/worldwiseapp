@@ -11,6 +11,7 @@ import Message from "./Message.jsx";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useCities } from "../Contexts/CitiesContext.jsx";
+import Spinner from "./Spinner.jsx";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
@@ -78,7 +79,7 @@ function Form() {
     await createCity(newCity);
     navigate("/app/cities");
   }
-
+  if (isLoadingGeoCoding) return <Spinner />;
   if (!lat && !lng)
     return <Message message="Start by pointing the location on map " />;
   if (geoCodingError) return <Message message={geoCodingError} />;
