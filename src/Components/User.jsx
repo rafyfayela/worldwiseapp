@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+import { useFakeAuth } from "../Contexts/FakeAuthContext";
 import styles from "./User.module.css";
 
 const FAKE_USER = {
@@ -8,15 +10,21 @@ const FAKE_USER = {
 };
 
 function User() {
-  const user = FAKE_USER;
+  const { user, Logout } = useFakeAuth();
+  const navigate = useNavigate();
+  console.log(user);
 
-  function handleClick() {}
+  function handleLogout(e) {
+    e.preventDefault();
+    Logout();
+    navigate("/");
+  }
 
   return (
     <div className={styles.user}>
       <img src={user.avatar} alt={user.name} />
       <span>Welcome, {user.name}</span>
-      <button onClick={handleClick}>Logout</button>
+      <button onClick={handleLogout}>Logout</button>
     </div>
   );
 }
