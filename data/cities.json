@@ -1,51 +1,39 @@
 {
   "cities": [
     {
-      "id": "3291",
-      "cityName": "Tunis",
-      "country": "Tunisia",
-      "emoji": "🇹🇳",
-      "date": "2025-02-02T10:48:35.068Z",
+      "id": "033c",
+      "cityName": "Rome",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2025-02-04T18:44:25.870Z",
       "notes": "",
       "position": {
-        "lat": "36.80268739459133",
-        "lng": "10.174713134765627"
+        "lat": "42.09822241118974",
+        "lng": "12.832031250000002"
       }
     },
     {
-      "id": "2865",
-      "cityName": "Prague",
-      "country": "Czechia",
-      "emoji": "🇨🇿",
-      "date": "2025-02-02T10:49:30.879Z",
+      "id": "9878",
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2025-02-04T18:45:09.038Z",
       "notes": "",
       "position": {
-        "lat": "50.05008477838256",
-        "lng": "14.39208984375"
+        "lat": "38.70989303926043",
+        "lng": "-9.136505126953127"
       }
     },
     {
-      "id": "1f82",
-      "cityName": "Echternach",
-      "country": "Luxembourg",
-      "emoji": "🇱🇺",
-      "date": "2025-02-02T10:50:03.189Z",
+      "id": "cd95",
+      "cityName": "Desulo",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2025-02-04T18:46:52.960Z",
       "notes": "",
       "position": {
-        "lat": "49.80431392204895",
-        "lng": "6.424255371093751"
-      }
-    },
-    {
-      "id": "d8a8",
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-02-02T11:06:00.980Z",
-      "notes": "",
-      "position": {
-        "lat": "40.38839687388361",
-        "lng": "-3.7792968750000004"
+        "lat": "40.06125658140474",
+        "lng": "9.228515625000002"
       }
     }
   ]
